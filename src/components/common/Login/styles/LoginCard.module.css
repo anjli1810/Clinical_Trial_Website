@@ -1,0 +1,57 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fullCard{
+    height: 60vh;
+    width: 60vh;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.title{
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.subtitle{
+    font-size: 25px;
+    color: rgb(160, 158, 158);
+
+}
+
+.formGroup2{
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+}
+
+.label{
+    margin: 10px;
+}
+.input{
+    margin: 10px;
+    width: 20vw;
+    height: 3.5vh;
+}
+
+.button{
+    height: 4vh;
+    width: 20.5vw;
+    margin: 7px;
+    background-color: rgb(228, 239, 239);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.register{
+    margin-top: 30px;
+}
+

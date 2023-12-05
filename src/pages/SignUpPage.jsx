@@ -1,8 +1,8 @@
 import React from "react"
 import styles from "./styles/SignUpPage.module.css"
 import doctor1 from "./images/doctor1.jpg"
-import MyNavbar from "../common/MyNavbar"
-import MyFooter from "../common/MyFooter"
+import MyNavbar from "../components/common/MyNavbar"
+import MyFooter from "../components/common/MyFooter"
 function SignUpPage()
 {
     return(

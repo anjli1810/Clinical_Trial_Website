@@ -1,13 +1,13 @@
-import './App.css';
-import MyNavbar from './components/common/MyNavbar';
+import "./App.css";
+import MyNavbar from "./components/common/MyNavbar";
 
-import LandingPage from './components/landing_page/LandingPage';
-import SignInPage from './components/sign_in/SignInPage';
+import LandingPage from "./pages/LandingPage";
+import SignInPage from "./pages/SignInPage";
+import AppRoutes from "./routes/routes";
 
 function App() {
   return (
-    //  <LandingPage/>
-   <SignInPage />
+    <AppRoutes/>
   );
 }
 export default App;
