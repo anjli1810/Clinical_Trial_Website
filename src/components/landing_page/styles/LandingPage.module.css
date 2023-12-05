@@ -1,0 +1,63 @@
+.text {
+    width: 50%;
+    padding: 10vw;
+  }
+  .first{
+   font-size: 22px;
+   color: rgb(53, 104, 223);
+   border-radius: px;
+    border: 1px solid rgb(53, 104, 223);
+    
+  }
+  .loginButton {
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color:  rgb(53, 104, 223);
+    color:white;
+    margin: 5px;
+  }
+  .decor{
+    display: flex;
+  
+  }
+  .images
+  {
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 200px;
+    /* border-top-right-radius: 75px;
+    border-top-left-radius:75px ; */
+  }
+  .containerr {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 239, 239);
+    box-sizing: content-box;
+  }
+  .click {
+    background-color: rgb(117, 225, 255);
+  }
+  .click:hover {
+    background-color: rgb(33, 203, 250);
+  }
+  h6{
+    color:grey;
+  }
+  @media only screen and (max-width: 768px) {
+    .containerr {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(228, 239, 239);
+      box-sizing: content-box;
+    }
+    .text {
+      width: 100%;
+      padding: 10vw;
+    }
+    .images{
+      display: none;
+    }
+  }
