@@ -7,6 +7,7 @@ const LoginCard = () => {
     const navigate = useNavigate();
 
   return (
+
     <div className={styles.main}>
       <center>
         <div className={styles.fullCard}>
@@ -39,7 +40,7 @@ const LoginCard = () => {
                   <br />
                   <input
                     className={styles.input}
-                    type="text"
+                    type="password"
                     name="password"
                     placeholder="Enter the password"
                   />
@@ -63,6 +64,7 @@ const LoginCard = () => {
         </div>
       </center>
     </div>
+
   );
 };
 

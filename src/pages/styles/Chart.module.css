@@ -1,0 +1,59 @@
+.card{
+  display: flex;
+  
+}
+.card2{
+    margin-top:0px;
+    display: flex;
+    
+  }
+  .card1{
+    height: 45vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 2px;
+  }
+  .card3{
+    height: 45vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 2px;
+  }
+  .card4
+  {
+    height: 45vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 2px;
+  }
+  .card5
+  {
+    height: 45vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+  }
+  .card6
+  {
+    height: 45vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .card7
+  {
+    height: 45vh;
+    width: 35vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+  }

@@ -1,13 +1,13 @@
 import "./App.css";
-import MyNavbar from "./components/common/MyNavbar";
-
-import LandingPage from "./pages/LandingPage";
-import SignInPage from "./pages/SignInPage";
-import AppRoutes from "./routes/routes";
+// import AppRoutes from "./routes/routes";
+// import Chart from "./pages/Chart"
+import Clinician from "./pages/Clinician";
 
 function App() {
   return (
-    <AppRoutes/>
+    // <AppRoutes/>
+    // <Chart />
+    <Clinician/>
   );
 }
 export default App;
