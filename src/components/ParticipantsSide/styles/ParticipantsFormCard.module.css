@@ -1,0 +1,85 @@
+.card{
+    margin: 50px 150px;
+    border: 1px solid rgb(159, 197, 236);
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(159, 197, 236, 0.5);
+}
+
+.titles{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.dropdown{
+    padding: 7px;
+    margin-right: 30px;
+    border: 1px solid rgb(195, 195, 195);
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
+.textBox{
+    padding: 7px;
+    width: 30vw;
+    border: 1px solid rgb(195, 195, 195);
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.oneDiv{
+    margin: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.button {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button:hover,
+.button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}

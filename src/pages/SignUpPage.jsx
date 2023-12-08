@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./styles/SignUpPage.module.css"
-import RegisterCard from "../components/common/Register/RegisterCard"
+import RegisterCard from "../components/Register/RegisterCard"
 function SignUpPage()
 {
     return(

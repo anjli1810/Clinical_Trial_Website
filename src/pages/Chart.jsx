@@ -1,9 +1,9 @@
 import React from "react";
-import BarCHart from "../components/common/BarChart/BarCHart";
+import BarCHart from "../components/Charts/BarChart/BarCHart";
 
-import PieChart from "../components/common/PieChart/PieChart";
+import PieChart from "../components/Charts/PieChart/PieChart";
 import styles from "./styles/Chart.module.css";
-import LineChart from "../components/common/LineChart/LineChart";
+import LineChart from "../components/Charts/LineChart/LineChart";
 function Chart()
 {
     return (

@@ -1,13 +1,11 @@
 import "./App.css";
-// import AppRoutes from "./routes/routes";
-// import Chart from "./pages/Chart"
-import Clinician from "./pages/Clinician";
+import AppRoutes from "./routes/routes";
+import Chart from "./pages/Chart"
+
 
 function App() {
   return (
-    // <AppRoutes/>
-    // <Chart />
-    <Clinician/>
+    <AppRoutes/>
   );
 }
 export default App;

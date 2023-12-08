@@ -4,38 +4,48 @@
     justify-content: center;
     height: 100vh;
 }
+
+.title{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
 .fullCard{
-    height: 70vh;
+    height: 75vh;
     width: 75vw;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
 .images{
-    
-    height: 70vh;
+    height: 75vh;
     width: 40vw;
     margin-left: auto;
     margin-right: auto;
     border-radius: 22px;
 }
+
 .log{
-    margin-left: 1vw;
+    margin-left: 0.5vw;
 }
 .label{
     margin: 10px;
+    font-weight: 300;
+    text-align: left;
 }
-.title{
-    font-size: 30px;
+
+.label2{
+    font-weight: 300;    
 }
+
 .text{
     width: 50%;
 }
 .content{
     display: flex;
 }
-
-
 
 .formGroup2{
    display: flex;
@@ -62,4 +72,3 @@
     border: 1px solid black;
     border-radius: 5px;
 }
-

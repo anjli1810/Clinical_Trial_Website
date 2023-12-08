@@ -4,6 +4,7 @@ import LandingPage from '../pages/LandingPage';
 import SignInPage from '../pages/SignInPage';
 import SignUpPage from '../pages/SignUpPage';
 import Chart from '../pages/Chart';
+import ParticipantsForm from '../pages/ParticipantsForm';
 
 const AppRoutes = () => {
 
@@ -14,7 +15,8 @@ const AppRoutes = () => {
             <Route path="/" element={<LandingPage/>}/>
             <Route path="/login" element={<SignInPage/>}/>
             <Route path="/register" element={<SignUpPage/>}/>
-            <Route path="/chart" elememt={<Chart/>}/>
+            <Route path="/chart" element={<Chart/>}/>
+            <Route path = "/participants-form" element = {<ParticipantsForm/>}/>
         </Routes>
     </BrowserRouter>
   )
